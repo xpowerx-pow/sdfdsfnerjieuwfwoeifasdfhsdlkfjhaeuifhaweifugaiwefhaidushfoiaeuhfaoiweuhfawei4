@@ -11,5 +11,8 @@ var $plugins =
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{"frameWindowSkin":"","frameWindowPadding":"18","padCharacter":"0","prefixText":"","widthVariable":"0","heightVariable":"0"}},
 {"name":"TMRegionPassable","status":true,"description":"その場所が通行可能かどうかをリージョンで設定できるようになります。","parameters":{"passableRegions":"251","dontPassRegions":"252 253","counterRegions":"253"}},
 {"name":"MessageSkip","status":true,"description":"メッセージスキッププラグイン","parameters":{"スキップキー":"control","オートキー":"A","スキップスイッチ":"0","オートスイッチ":"0","スキップアイコン":"140","オートアイコン":"75","アイコンX":"0","アイコンY":"0","押し続けスキップ":"true","ピクチャは押し続け対象外":"true","オート待機フレーム":"100 + textSize * 10","終了解除スイッチID":"0","スキップピクチャ":"","スキップピクチャX":"500","スキップピクチャY":"0","オートピクチャ":"","オートピクチャX":"750","オートピクチャY":"0","スイッチピクチャ":"","スイッチピクチャトリガー":"0","スイッチピクチャX":"750","スイッチピクチャY":"0","ボタン原点":"0","ボタン表示スイッチID":"0","ピクチャ座標タイプ":"relative","無効化スイッチ":"0","skipWait":"false"}},
-{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"returnToFirstCell":"true"}}
+{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"returnToFirstCell":"true"}},
+{"name":"RecollectionTitle","status":true,"description":"타이틀에 회상 방 메뉴 추가","parameters":{"Command Name":"회상 방","Map ID":"35","X":"5","Y":"7"}},
+{"name":"iOSAudioFix","status":true,"description":"아이폰 사파리 사운드 수정","parameters":{}},
+{"name":"AudioDebug","status":true,"description":"?debug 주소로 열면 사운드 진단 화면 표시","parameters":{}}
 ];
